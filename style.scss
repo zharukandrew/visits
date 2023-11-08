@@ -24,24 +24,23 @@ li{
 .error:hover{
     transform: scale(1,1);
     translate: 350px;
-    translate: -
-    350px;
+    translate: -350px;
 }
 .row{
     margin-top: 2rem;
     max-width:100%;
     display: flex;
     justify-content: space-evenly;
+    
     &__name-name{
         border-bottom:1px solid #BB5337  ;
-        width: 94px;
+        max-width: 94px;
         font-size: 14px;
-        line-height: 135%; /* 18.9px */
         letter-spacing: 3.92px;
     }
     &__name-surname{
         font-size: 14px;
-        line-height: 135%; /* 18.9px */
+         /* 18.9px */
         letter-spacing: 3.92px;
     }
     &__info {
@@ -54,3 +53,4 @@ li{
     }
     
 }
+//mobile

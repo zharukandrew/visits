@@ -39,14 +39,13 @@ li {
 }
 .row__name-name {
   border-bottom: 1px solid #BB5337;
-  width: 94px;
+  max-width: 94px;
   font-size: 14px;
-  line-height: 135%; /* 18.9px */
   letter-spacing: 3.92px;
 }
 .row__name-surname {
   font-size: 14px;
-  line-height: 135%; /* 18.9px */
+  /* 18.9px */
   letter-spacing: 3.92px;
 }
 .row__info {
