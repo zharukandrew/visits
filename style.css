@@ -55,4 +55,45 @@ li {
 }
 .row__svg {
   margin-left: 5rem;
+}
+
+.photo {
+  margin-top: 94px;
+}
+.photo__photo1__title {
+  color: var(--, #000);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.photo__photo1__title span {
+  color: #797777;
+  font-family: Lato;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.5px;
+}
+.photo__photo1__page {
+  padding-top: 2rem;
+  max-width: 32%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.photo__photo2 {
+  padding-top: 8rem;
+  display: flex;
+  gap: 1rem;
+}
+.photo__photo2-box {
+  margin: 1rem;
+}
+.photo__photo2-box h3 {
+  padding-top: 1rem;
+}
+.photo__photo2-box p {
+  padding-top: 1rem;
 }/*# sourceMappingURL=style.css.map */
