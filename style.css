@@ -57,6 +57,10 @@ li {
   margin-left: 5rem;
 }
 
+.photos {
+  display: flex;
+}
+
 .photo {
   margin-top: 94px;
 }
@@ -78,7 +82,7 @@ li {
 }
 .photo__photo1__page {
   padding-top: 2rem;
-  max-width: 32%;
+  max-width: 58%;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -96,4 +100,10 @@ li {
 }
 .photo__photo2-box p {
   padding-top: 1rem;
+}
+
+.photopeople {
+  display: flex;
+  gap: 8px;
+  margin-top: 8rem;
 }/*# sourceMappingURL=style.css.map */
