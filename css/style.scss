@@ -18,3 +18,27 @@ li{
     max-width: 1150px;
     margin: 0 auto;
 }
+.header{
+    display: flex;
+    margin: 45px;
+   
+}
+.headers{
+    display: flex;
+    gap:20px;
+    
+    &__content{
+        margin-right: 33rem;
+       
+    }
+   &__content-name{
+    border-bottom: 2px solid red;
+    
+}
+    
+    &__menu{
+        display: flex;
+        gap:1.5rem;
+        margin-right:5rem;
+    }
+}

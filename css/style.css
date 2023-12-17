@@ -19,4 +19,25 @@ li {
 .conteiner {
   max-width: 1150px;
   margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  margin: 45px;
+}
+
+.headers {
+  display: flex;
+  gap: 20px;
+}
+.headers__content {
+  margin-right: 33rem;
+}
+.headers__content-name {
+  border-bottom: 2px solid red;
+}
+.headers__menu {
+  display: flex;
+  gap: 1.5rem;
+  margin-right: 5rem;
 }/*# sourceMappingURL=style.css.map */
