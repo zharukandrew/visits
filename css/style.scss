@@ -13,6 +13,9 @@ body{
 li{
     list-style-type: none;
 }
+ul{
+    text-decoration: none;
+}
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 .conteiner{
     max-width: 1150px;
@@ -41,4 +44,128 @@ li{
         gap:1.5rem;
         margin-right:5rem;
     }
+}
+.photos{
+   width: 100%;
+   display: flex;
+   
+   &__name-page{
+    display: flex;
+    margin-bottom: 10rem;
+}
+&__name-location{
+    margin: 20px;
+}
+&__name-title{
+    color: var(--, #000);
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.5px;
+}
+&__name-title span{
+    color: #797777;
+}
+&__name-page{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 21.6px */
+    letter-spacing: 0.48px;
+    max-width: 62.5%;
+}
+&__img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+&__img-img{
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+}
+.service__do{
+     margin-top:32px;
+     &__do-subtitle{
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.05px;
+        text-transform: uppercase;
+    }
+   
+}
+.service__photo{
+    margin-top:32px;
+    &-subtitle{
+        color: var(--, #000);
+        font-family: Lato;
+        font-size: 22px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: normal;
+         letter-spacing: 0.66px;
+         text-transform: uppercase;
+    }
+}
+.service__video{
+    margin-top:32px; 
+    display: flex;  
+    gap:52px;
+   &-subtitle{
+    color: var(--logo, #BB5337);
+    /* заголовок н3 */
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.66px;
+    text-transform: uppercase;
+   }
+   &-page{
+    padding-top: 11px;
+    color: #000;
+    max-width: 570px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 21.6px */
+    letter-spacing: 0.48px;
+    
+   }
+   
+}
+.service__drone{
+    margin-top: 32px;
+    &-subtitle{
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+    }
+}
+.service__location{
+    margin-top: 32px;
+    &-subtitle{
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+    }
+}
+.line{
+    border-bottom: 1px solid black; /* Параметры линии */
+    margin-top: 30px;
 }

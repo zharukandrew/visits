@@ -1,50 +1,16 @@
 @media (max-width: 767px) {
-  .row {
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
-    margin-left: -80px;
+  .headers__menu {
+    display: none !important;
   }
-  .row__name-name {
-    border-bottom: 1px solid #BB5337;
-    max-width: 50px;
-    font-size: 8px;
+  .photos {
+    flex-wrap: wrap;
+    margin: 50px;
   }
-  .row__name-surname {
-    font-size: 8px;
+  .photos__name-title {
+    font-size: 14px !important;
   }
-  .row__svg {
-    display: none;
-  }
-  .row__info {
-    max-width: 1%;
-    display: flex;
-    flex-direction: column;
-    align-content: flex end;
-    margin-top: 30px;
-    margin-left: -50px;
-  }
-  .row__info h3 {
-    font-size: 8px;
-    padding: 1px;
-  }
-  .photo {
-    max-width: 360px;
-  }
-  .photo__photo1 {
-    max-width: 100%;
-  }
-  .photo__photo1__title {
-    font-size: 9px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  .photo__photo1__title span {
-    color: #797777;
-    font-size: 9px;
-  }
-  .photo__photo1__page {
-    max-width: 18%;
+  .photos__name-page {
+    font-size: 9px !important;
+    width: 30%;
   }
 }/*# sourceMappingURL=mobile.css.map */

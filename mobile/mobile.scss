@@ -5,52 +5,24 @@
 //     /* ваш CSS-код для устройств с шириной между 768px и 833px */
 // }
 @media(max-width:767px) {
-    .row {
-        flex-direction: column;
-        align-items: center;
-        gap:2px;
-        margin-left:-80px;
-    }
-    .row__name-name {
-        border-bottom: 1px solid #BB5337;
-        max-width: 50px;
-        font-size: 8px;
-    }
-    .row__name-surname{
-        font-size: 8px;
-    }
-    .row__svg{
-        display: none;
-    }
-    .row__info {
-        max-width: 1%;
-        display: flex;
-        flex-direction: column;
-        align-content: flex end;
-        margin-top: 30px;
-        margin-left: -50px;
-    }
-    .row__info h3 {
-        font-size: 8px;
-        padding: 1px;
-    }
-    .photo{
-        max-width: 360px;
-        &__photo1{
-            max-width: 100%;
+    .headers{
+        
+        &__menu{
+            display: none!important;
         }
-        &__photo1__title{
-            font-size: 9px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
+    }
+    .photos{
+        flex-wrap: wrap;
+        margin: 50px;
+        &__name-title{
+            
+            font-size: 14px!important;
+           
         }
-        &__photo1__title span {
-            color: #797777;
-            font-size: 9px;
+        &__name-page{
+            font-size: 9px!important;
+            width: 30%;
         }
-        &__photo1__page{
-           max-width: 18%;
-        }
+        
     }
 }
