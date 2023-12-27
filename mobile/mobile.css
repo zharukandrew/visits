@@ -13,4 +13,35 @@
     font-size: 9px !important;
     width: 30%;
   }
+  .service__do-subtitle {
+    font-size: 15px;
+  }
+  .service__photo-subtitle {
+    font-size: 15px !important;
+  }
+  .service__video {
+    gap: 32px !important;
+  }
+  .service__video-subtitle {
+    font-size: 12px !important;
+    text-transform: lowercase !important;
+  }
+  .service__video-page {
+    max-width: 370px;
+    font-size: 10px;
+  }
+  .service__drone-subtitle {
+    font-size: 12px !important;
+    text-transform: lowercase !important;
+  }
+  .service__location {
+    margin-top: 32px;
+  }
+  .service__location-subtitle {
+    font-family: Lato;
+    font-size: 12px !important;
+  }
+  .line {
+    margin-top: 20px !important;
+  }
 }/*# sourceMappingURL=mobile.css.map */
