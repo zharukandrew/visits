@@ -171,4 +171,35 @@ ul {
 .line {
   border-bottom: 1px solid black; /* Параметры линии */
   margin-top: 30px;
+}
+
+.work {
+  display: flex;
+  gap: 45px;
+  margin-top: 114px;
+  justify-content: space-around;
+}
+.work__photo1 {
+  display: flex;
+}
+.work__photo1-title {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.05px;
+  text-transform: uppercase;
+}
+.work__photo-list {
+  margin-top: 32px;
+}
+.work__photo-list img {
+  margin-top: 9px;
+}
+.work .work__photo2-forest {
+  margin-bottom: 14px;
+  margin-left: 20px;
+}
+.work .work__photo2-wedding {
+  margin-bottom: 14px;
 }/*# sourceMappingURL=style.css.map */

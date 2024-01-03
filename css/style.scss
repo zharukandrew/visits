@@ -169,3 +169,38 @@ ul{
     border-bottom: 1px solid black; /* Параметры линии */
     margin-top: 30px;
 }
+.work{
+    display: flex;
+    gap:45px;
+    margin-top:114px;
+    justify-content: space-around;
+    
+    &__photo1{
+        display: flex;
+        &-title{
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 1.05px;
+            text-transform: uppercase;
+        }
+    }
+   
+    &__photo-list{
+        margin-top: 32px;
+       
+    }
+    &__photo-list img{
+        margin-top: 9px;
+    }
+    .work__photo2-forest{
+        margin-bottom:14px;
+        margin-left: 20px;
+    }
+    .work__photo2-wedding{
+        margin-bottom:14px;
+    }
+}
+
+
