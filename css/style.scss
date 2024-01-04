@@ -178,6 +178,7 @@ ul{
     
     &__photo1{
         display: flex;
+        gap: 15px;
         &-title{
             font-size: 35px;
             font-style: normal;
@@ -194,6 +195,10 @@ ul{
     }
     &__photo-list img{
         margin-top: 9px;
+    }
+    .work__photo2{
+        display: flex;
+        flex-direction: column;
     }
     .work__photo2-forest{
         margin-bottom:14px;

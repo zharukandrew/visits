@@ -181,6 +181,7 @@ ul {
 }
 .work__photo1 {
   display: flex;
+  gap: 15px;
 }
 .work__photo1-title {
   font-size: 35px;
@@ -195,6 +196,10 @@ ul {
 }
 .work__photo-list img {
   margin-top: 9px;
+}
+.work .work__photo2 {
+  display: flex;
+  flex-direction: column;
 }
 .work .work__photo2-forest {
   margin-bottom: 14px;
