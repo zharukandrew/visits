@@ -5,3 +5,4 @@ photosNameTitle.addEventListener("click",()=>{
 })
 headers.addEventListener("click",()=>{
   headers.classList.toggle("red")
+})
