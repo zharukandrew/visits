@@ -208,5 +208,49 @@ ul{
         margin-bottom:14px;
     }
 }
+.stays{
+  
+    &__title{
+        color: #000;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.05px;
+        text-transform: Uppercase;
+        margin-top: 114px;
+    }
+    .stay{
+        display: flex;
+        margin-left: 11rem;
+        margin-top: 70px;
+        gap:117px;
+        &__text{
+            display: flex;
+        }
+        &__text-beauty{
+            padding-left: 20px;
+            max-width: 300px;
+            font-family: Lato;
+            font-size: 15px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 130%; /* 19.5px */
+            letter-spacing: 0.75px;
+            text-transform: uppercase;
+        }
+        &__text-names{
+            padding-top: 42px;
+            padding-left: 5px;
+        }
+        &__text-name{
+            border-bottom: 1px solid red;
+        }
+        &__text-firstname{
+            padding-left: 2px;
+        }
+    }
+   
+}
 
 
