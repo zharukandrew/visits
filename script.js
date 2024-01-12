@@ -15,3 +15,4 @@ stay.addEventListener("click",()=>{
 staysTitle.addEventListener("click",()=>{
   stay.classList.toggle("red")
 })
+//
