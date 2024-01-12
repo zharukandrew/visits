@@ -221,9 +221,10 @@ ul {
 }
 .stays .stay {
   display: flex;
+  flex-wrap: nowrap;
   margin-left: 11rem;
   margin-top: 70px;
-  gap: 117px;
+  gap: 60px;
 }
 .stays .stay__text {
   display: flex;
@@ -248,4 +249,9 @@ ul {
 }
 .stays .stay__text-firstname {
   padding-left: 2px;
+}
+
+.footer {
+  margin-left: 170px;
+  margin-top: 40px;
 }/*# sourceMappingURL=style.css.map */

@@ -52,4 +52,16 @@
   .work__photo2 li {
     margin-bottom: 10px;
   }
+  .stay {
+    margin-right: 11rem !important;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
+  .stay__text {
+    margin-left: 1rem;
+  }
+  .stays__title {
+    font-size: 12px !important;
+  }
 }/*# sourceMappingURL=mobile.css.map */

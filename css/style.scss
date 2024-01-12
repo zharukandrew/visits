@@ -222,9 +222,10 @@ ul{
     }
     .stay{
         display: flex;
+        flex-wrap: nowrap;
         margin-left: 11rem;
         margin-top: 70px;
-        gap:117px;
+        gap:60px;
         &__text{
             display: flex;
         }
@@ -253,4 +254,7 @@ ul{
    
 }
 
-
+.footer{
+    margin-left: 170px;
+    margin-top: 40px;
+}
