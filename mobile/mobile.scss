@@ -1,0 +1,91 @@
+// @media screen and (max-width:1024px) {
+//     /* ваш CSS-код для устройств с максимальной шириной 1024px */
+// }
+// @media (min-width:768px) and (max-width:833px) {
+//     /* ваш CSS-код для устройств с шириной между 768px и 833px */
+// }
+@media(max-width:767px) {
+    .headers{
+        
+        &__menu{
+            display: none!important;
+        }
+    }
+    .photos{
+        flex-wrap: wrap;
+        margin: 50px;
+        &__name-title{
+            
+            font-size: 14px!important;
+           
+        }
+        &__name-page{
+            font-size: 9px!important;
+            width: 30%;
+        }
+        
+    }
+    .service__do{
+      
+        &-subtitle{
+           font-size: 15px;
+          
+       }
+      
+   }
+   .service__photo{
+      
+    &-subtitle{
+       font-size: 15px!important;
+    }
+  }
+  .service__video{
+    gap: 32px !important;;
+   &-subtitle{
+   
+    font-size: 12px!important;
+    text-transform: lowercase!important;
+   }
+   &-page{
+    
+    max-width: 370px;
+    font-size: 10px;
+    }
+}
+.service__drone{
+    &-subtitle{
+       font-size: 12px!important;
+        text-transform: lowercase!important;
+    }
+}
+.service__location{
+    margin-top: 32px;
+    &-subtitle{
+        font-family: Lato;
+        font-size: 12px!important;
+    }
+}
+.line{
+    margin-top: 20px!important;
+}
+.work {
+    flex-direction: column;
+    margin-right:-55px ;
+  }
+  .work__photo1 li,
+  .work__photo2 li {
+    margin-bottom: 10px;
+  }
+  .stay{
+    margin-right: 11rem!important;
+   display: flex;
+   flex-direction: row-reverse;
+   flex-wrap: nowrap;
+   &__text{
+    margin-left: 1rem;
+   }
+  }
+  .stays__title{
+    font-size: 12px!important;
+  }
+}

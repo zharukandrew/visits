@@ -1,0 +1,260 @@
+
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/*Lato:
+weight:400px,600px,
+*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+.conteiner{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    margin: 45px;
+   
+}
+.headers{
+    display: flex;
+    gap:20px;
+    
+    &__content{
+        margin-right: 33rem;
+       
+    }
+   &__content-name{
+    border-bottom: 2px solid red;
+    
+}
+    
+    &__menu{
+        display: flex;
+        gap:1.5rem;
+        margin-right:5rem;
+    }
+}
+.photos{
+   width: 100%;
+   display: flex;
+   
+   &__name-page{
+    display: flex;
+    margin-bottom: 10rem;
+}
+&__name-location{
+    margin: 20px;
+}
+&__name-title{
+    color: var(--, #000);
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.5px;
+}
+&__name-title span{
+    color: #797777;
+}
+&__name-page{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 21.6px */
+    letter-spacing: 0.48px;
+    max-width: 62.5%;
+}
+&__img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+&__img-img{
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+}
+.service__do{
+     margin-top:32px;
+     &__do-subtitle{
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.05px;
+        text-transform: uppercase;
+    }
+   
+}
+.service__photo{
+    margin-top:32px;
+    &-subtitle{
+        color: var(--, #000);
+        font-family: Lato;
+        font-size: 22px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: normal;
+         letter-spacing: 0.66px;
+         text-transform: uppercase;
+    }
+}
+.service__video{
+    margin-top:32px; 
+    display: flex;  
+    gap:52px;
+   &-subtitle{
+    color: var(--logo, #BB5337);
+    /* заголовок н3 */
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.66px;
+    text-transform: uppercase;
+   }
+   &-page{
+    padding-top: 11px;
+    color: #000;
+    max-width: 570px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 21.6px */
+    letter-spacing: 0.48px;
+    
+   }
+   
+}
+.service__drone{
+    margin-top: 32px;
+    &-subtitle{
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+    }
+}
+.service__location{
+    margin-top: 32px;
+    &-subtitle{
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+    }
+}
+.line{
+    border-bottom: 1px solid black; /* Параметры линии */
+    margin-top: 30px;
+}
+.work{
+    display: flex;
+    gap:45px;
+    margin-top:114px;
+    justify-content: space-around;
+    
+    
+    &__photo1{
+        display: flex;
+        gap: 15px;
+        &-title{
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 1.05px;
+            text-transform: uppercase;
+        }
+    }
+   
+    &__photo-list{
+        margin-top: 32px;
+       
+    }
+    &__photo-list img{
+        margin-top: 9px;
+    }
+    .work__photo2{
+        display: flex;
+        flex-direction: column;
+    }
+    .work__photo2-forest{
+        margin-bottom:14px;
+        margin-left: 20px;
+    }
+    .work__photo2-wedding{
+        margin-bottom:14px;
+    }
+}
+.stays{
+  
+    &__title{
+        color: #000;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.05px;
+        text-transform: Uppercase;
+        margin-top: 114px;
+    }
+    .stay{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: 11rem;
+        margin-top: 70px;
+        gap:60px;
+        &__text{
+            display: flex;
+        }
+        &__text-beauty{
+            padding-left: 20px;
+            max-width: 300px;
+            font-family: Lato;
+            font-size: 15px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 130%; /* 19.5px */
+            letter-spacing: 0.75px;
+            text-transform: uppercase;
+        }
+        &__text-names{
+            padding-top: 42px;
+            padding-left: 5px;
+        }
+        &__text-name{
+            border-bottom: 1px solid red;
+        }
+        &__text-firstname{
+            padding-left: 2px;
+        }
+    }
+   
+}
+
+.footer{
+    margin-left: 170px;
+    margin-top: 40px;
+}
