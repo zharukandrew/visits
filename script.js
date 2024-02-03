@@ -6,37 +6,27 @@ let photosNameTitle = document.querySelector(".photos__name-title");
 let stay = document.querySelector(".stay");
 const staysTitle = document.querySelector(".stays__title");
 
-//обработчики событий
+//общий функционал
 
 const setColorHeader = () => {
     headers.classList.toggle("red")
 }
-
-headers.addEventListener("click", setColorHeader)
-//образец сделать 
-
-
-function photos(photosNameTitle){
-  photosNameTitle.addEventListener("click",()=>{
-      photosNameTitle.classList.toggle("phota__name-title")
-    })
+const photos =()=>{
+  photosNameTitle.classList.toggle("phota__name-title")
 }
-function photaName(stay){
-  stay.addEventListener("click",()=>{
+const photaName = (stay)=>{
   stay.classList.toggle("phota__name-title")
-})
 }
-function staysTitler(staysTitle){
-  staysTitle.addEventListener("click",()=>{
+const staysTitler=()=>{
   stay.classList.toggle("red")
-})
 }
-
-
-
-
+//обработчики событий
+headers.addEventListener("click", setColorHeader);
+photosNameTitle.addEventListener("click",photos);
+stay.addEventListener("click",photaName);
+staysTitle.addEventListener("click",staysTitler);
 //результат
-staysTitler(staysTitle)
-photos(photosNameTitle);
-photaName(stay);
+
+
+
 lists(list);
